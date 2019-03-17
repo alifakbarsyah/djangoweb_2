@@ -126,8 +126,6 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-OXFORD_APP_ID = config('OXFORD_APP_ID', default='6e2a2ad5')
+OXFORD_APP_ID = config('OXFORD_APP_ID', default='')
 
-OXFORD_APP_KEY = config('OXFORD_APP_KEY', default='03f9f140be49503c61e395635b0cc3b5')
-
-IPSTACK_API_KEY = config('IPSTACK_API_KEY', default='89e266b5a2df56e6796e31d2b725458d')
+OXFORD_APP_KEY = config('OXFORD_APP_KEY', default='')
