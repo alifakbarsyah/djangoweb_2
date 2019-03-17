@@ -35,4 +35,6 @@ python manage.py runserver
 
 The project will be available at **127.0.0.1:8000**.
 
+*PS: Set your API key in settings.py*
+
 Inspired from [How to Use RESTful APIs with Django](https://simpleisbetterthancomplex.com/tutorial/2018/02/03/how-to-use-restful-apis-with-django.html).
